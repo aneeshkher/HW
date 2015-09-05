@@ -1,5 +1,9 @@
-#!C:\Dwimperl\perl\bin\perl
+@output = `git remote -v`;
 
+#print $output;
+$output[0] =~ m/origin\s+(\S+)\s+/;
+$repo = $1;
+print $1."\n";
 
-@command = "start chrome https://www.google.com";
+@command = "start chrome $repo";
 system (@command);
