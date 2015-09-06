@@ -1,3 +1,5 @@
+## Puzze Solutions
+
 ### Introduction to git commits - level intro1 => 1 - 1
 ---
     git commit  
@@ -89,3 +91,16 @@ _Choose C2'' and C3' in that order_
 ### Git describe - level mixed5 => 4 - 5
 ---
     git commit  
+
+## Hooks solution
+```perl
+#!C:\Dwimperl\perl\bin\perl.exe -w  
+@output = `git remote -v`; 
+
+$output[0] =~ m/origin\s+(\S+)\s+/; # RegEx match to get remote repo  
+$repo = $1;  
+
+@command = "start chrome $repo"; # Open that repo in the browser
+system (@command); 
+```
+
