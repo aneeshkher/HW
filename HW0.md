@@ -111,5 +111,5 @@ system (@command);
 ```
 
 ## Screencast
-Screen case of process showing a web page opening after a commit is made.  
+Screencast of process showing a web page opening after a commit is made.  
 ![Screencast](https://github.com/aneeshkher/HW/blob/master/Screencast.gif)
