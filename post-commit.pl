@@ -4,5 +4,6 @@
 $output[0] =~ m/origin\s+(\S+)\s+/;
 $repo = $1;
 
+print "Adding one line\n";
 @command = "start chrome $repo";
 system (@command);
