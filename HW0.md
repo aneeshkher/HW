@@ -105,3 +105,7 @@ $repo = $1;
 @command = "start chrome $repo"; # Open that repo in the browser
 system (@command); 
 ```
+
+## Screencast
+Screen case of process showing a web page opening after a commit is made.  
+![Screencast](https://github.com/aneeshkher/HW/blob/master/Screencast.gif)
