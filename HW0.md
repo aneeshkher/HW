@@ -93,6 +93,8 @@ _Choose C2'' and C3' in that order_
     git commit  
 
 ## Hooks solution
+Contents of the `post-commit` file in `.git/hooks`  
+
 ```perl
 #!C:\Dwimperl\perl\bin\perl.exe -w  
 @output = `git remote -v`; 
