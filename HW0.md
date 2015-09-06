@@ -92,6 +92,10 @@ _Choose C2'' and C3' in that order_
 ---
     git commit  
 
+
+## Screenshot of puzzle completion
+![Puzzle screenshot](https://github.com/aneeshkher/HW/blob/master/PuzzleScreenshot.png)
+
 ## Hooks solution
 Contents of the `post-commit` file in `.git/hooks`  
 
