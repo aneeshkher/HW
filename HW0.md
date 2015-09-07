@@ -1,3 +1,7 @@
+# CSC 591 007 - Homework 0
+#### Name: Aneesh Kher
+#### Unity ID: aakher
+
 ## Puzze Solutions
 
 #### Introduction to git commits - level intro1 => 1 - 1
